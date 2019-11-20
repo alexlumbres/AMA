@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+
+#hungerbox{
+	height:100%;
+	margin:2%;
+	padding:2%;
+	background-color: rgba(208,208,208,.7);
+	display: inline-block;
+	float:left;
+}
+
+#hungercontainer h3{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#hungercontainer ul li{
+	font-size: 20px;
+	width: 40%;
+}
+
+#hungerimg{
+	width:25%;
+}
