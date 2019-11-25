@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;
+}
+
+#homebg{
+
+	background-image: url(homebg.jpg);
+	background-size: cover;
+	
+}
+
+#header{
+	width:25%;
+	height: 897px;
+	background-color: rgba(0,0,0,.70);
+}
+
+#headcontainer{
+	width:90%;
+	padding-top: 6%;
+	margin: auto;
+	/*background-color: rgba(246,228,181,0.70)*/
+}
+
+#clientname{
+	font-size: 60px;	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: rgba(233,253,255,1.00);
+	text-align: center;
+	margin-bottom: 3%;
+}
+
+#line{
+	width: 80%;
+	margin: auto;
+	border: 2px solid rgba(233,253,255,.80);
+  	border-radius: 5px;
+}
+
+#line:hover{
+	color:aliceblue;
+}
+
+#navigation{
+	width:90%;
+	height:100%;
+	margin: 0% auto;
+	text-align: center;
+	/*background-color:rgba(0,0,0,.60)*/
+}
+
+#navigation a{
+	display: block;
+	text-decoration: none;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 50px;
+	color: rgba(233,253,255,1.00);
+	margin: 8%;
+	
+}
